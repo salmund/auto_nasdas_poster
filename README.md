@@ -13,7 +13,7 @@ Voici un script conçu pour automatiser la publication de commentaires sous le f
 1. Clonez le dépôt
 
 ```bash
-git clone https://github.com/votreUsername/AutoPoster.git
+git clone https://github.com/salmund/auto_nasdas_poster
 ```
 
 2. Installez les dépendances
