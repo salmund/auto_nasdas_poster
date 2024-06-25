@@ -22,10 +22,6 @@ git clone https://github.com/votreUsername/AutoPoster.git
 pip install -r requirements.txt
 ```
 
-3. Téléchargez le ChromeDriver correspondant à votre version de Chrome [ici](https://sites.google.com/a/chromium.org/chromedriver/downloads)
-
-4. Décompressez le fichier téléchargé et déplacez le fichier `chromedriver` dans le dossier `AutoPoster`
-
 ## Utilisation
 
 1. Ouvrez le fichier `id.json` et modifiez-le avec vos identifiants Instagram
