@@ -48,6 +48,9 @@ def comment_on_post(driver, post_url, comment):
         logging.error(f"Erreur lors du commentaire: {str(e)}")
 
 def send_notification(message):
+    '''
+    Pas essentiel, mais c'est mieux si des trucs imprévus arrivent d'être alerté
+    '''
     try:
         # Configurer ici l'adresse IP de votre téléphone ou un service de notification
         host = "192.168.1.51"  # exemple d'IP locale
@@ -63,6 +66,9 @@ def main():
     
     # Options pour le navigateur
     chrome_options = Options()
+    # y'a la possibilité de mettre un proxy ici ; comme vous voulez
+    # vous pouvez aussi tourner en headless pour ne pas voir le navigateur ; à vous de voir
+    # chrome_options.add_argument("--headless")
     chrome_options.add_argument("--disable-gpu")
     chrome_options.add_argument("--window-size=1920,1080")
     chrome_options.add_argument("--no-sandbox")
@@ -127,3 +133,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
